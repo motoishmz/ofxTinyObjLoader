@@ -163,7 +163,7 @@ ofMaterial ofxTinyObjLoader::toOf(tinyobj::material_t material)
 	float shininess = material.shininess;
 	
 //	cout << "shininess:" << shininess << endl;
-	of_material.setShininess(100);
+	of_material.setShininess(shininess);
 	
 
 	// ...we don't load the following stuffs
